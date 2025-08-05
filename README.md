@@ -1,8 +1,8 @@
-# Katomaran Todo Task App
+# Todo Task App
 
 This is a cross-platform Todo Task Management Mobile App built with [Flutter/React Native] for the Katomaran hackathon. The app supports social login, full CRUD operations on tasks, and offline usage with a clean and intuitive UI.
 
-## Features
+# Features
 
 - Social login using one provider (Google, Facebook, Apple, or X)  
 - Create, read, update, complete, and delete tasks  
@@ -13,11 +13,11 @@ This is a cross-platform Todo Task Management Mobile App built with [Flutter/Rea
 - Crash reporting integrated  
 - Designed with a proven design pattern for scalability and maintainability
 
-## Setup & Run
+# Setup & Run
 
 Clone the repo, install dependencies, configure authentication, and run on device or emulator.
 
-## Assumptions
+# Assumptions
 
 Tasks are stored locally for the session, only one social login provider is implemented, and backend integration is optional.
 
