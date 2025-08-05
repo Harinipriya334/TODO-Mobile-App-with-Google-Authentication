@@ -1,30 +1,27 @@
- TODO-Mobile-App-with-Google-Authentication
- A cross-platform todo app for the Katomaran hackathon, built with [Flutter/React Native].  
-Features social login (Google/Facebook/Apple/X), full CRUD for tasks, offline support, and a modern, responsive UI.
+# Katomaran Todo Task App
 
-# Highlights
+This is a cross-platform Todo Task Management Mobile App built with [Flutter/React Native] for the Katomaran hackathon. The app supports social login, full CRUD operations on tasks, and offline usage with a clean and intuitive UI.
 
-1 Social login (one provider)
-2 Add, edit, complete, delete tasks
-3 Task fields: title, description, due date, status, priority
-4 Local/session storage
-5 Search, filters, tabs, FAB, smooth animations
-5 Pull-to-refresh, swipe-to-delete
-6 Crash reporting via [Sentry/Firebase Crashlytics]
-7 Demo video: [Loom link here]
-8 Architecture: See architecture.png
+## Features
 
-# How to Run
+- Social login using one provider (Google, Facebook, Apple, or X)  
+- Create, read, update, complete, and delete tasks  
+- Task fields: title, description, due date, status, and priority  
+- Local state storage for the session  
+- Tabs, filters, search, floating action button, and no-data state  
+- Smooth animations, pull-to-refresh, and swipe-to-delete  
+- Crash reporting integrated  
+- Designed with a proven design pattern for scalability and maintainability
 
-1. Clone the repo  
-2. Install dependencies and auth config  
-3. Run on device/emulator:  
-   - Flutter: flutter run  
-   - React Native: npx react-native run-android or run-ios  
-4. [APK link here]
+## Setup & Run
 
+Clone the repo, install dependencies, configure authentication, and run on device or emulator.
 
+## Assumptions
 
+Tasks are stored locally for the session, only one social login provider is implemented, and backend integration is optional.
 
 This project is a part of a hackathon run by https://www.katomaran.com
+
+
 
