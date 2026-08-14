@@ -21,7 +21,6 @@ Clone the repo, install dependencies, configure authentication, and run on devic
 
 Tasks are stored locally for the session, only one social login provider is implemented, and backend integration is optional.
 
-This project is a part of a hackathon run by https://www.katomaran.com
 
 
 
